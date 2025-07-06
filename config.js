@@ -11,7 +11,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     auto: false,
-    title: 'Waste and Sanitation',
+    title: 'Atık ve Sanitasyon / Waste and Sanitation',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
@@ -25,7 +25,7 @@ var config = {
             description: '',
             location: {
                 center: [28.966 , 40.999],
-                zoom: 10,
+                zoom: 14,
                 pitch: 40,
                 bearing: 20
             },
@@ -55,7 +55,7 @@ var config = {
             description: '',
             location: {
                 center: [28.967, 41.000],
-                zoom: 12,
+                zoom: 14,
                 pitch: 40,
                 bearing: 20
             },
@@ -85,7 +85,7 @@ var config = {
             description: '',
             location: {
                 center: [28.964 , 41.002],
-                zoom: 13,
+                zoom: 14,
                 pitch: 40,
                 bearing: 6
                 
@@ -116,8 +116,8 @@ var config = {
             image: 'https://i.ibb.co/PsHJYLj4/MEF-AAP-027-BAP-2025-06-20-08-42-23.png',
             description: '',
             location: {
-                center: [28.976 , 40.980],
-                zoom: 15,
+                center: [28.971 , 40.992],
+                zoom: 18,
                 pitch: 40,
                 bearing: 6
             },
@@ -146,8 +146,8 @@ var config = {
             image: 'https://i.ibb.co/PsHJYLj4/MEF-AAP-027-BAP-2025-06-20-08-42-23.png',
             description: '',
             location: {
-                center: [28.990 , 40.921],
-                zoom: 16,
+                center: [28.988,40.940],
+                zoom: 18,
                 pitch: 0,
                 bearing: 0
             },
@@ -171,12 +171,31 @@ var config = {
            {
             id: '6',
             alignment: 'centered',
+            hidden: true,
+            title: '',
+            image: 'https://i.ibb.co/PsHJYLj4/MEF-AAP-027-BAP-2025-06-20-08-42-23.png',
+            description: '',
+            location: {
+                center: [28.988 , 40.940],
+                zoom: 16,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+       },
+           {
+            id: '7',
+            alignment: 'righty',
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/PsHJYLj4/MEF-AAP-027-BAP-2025-06-20-08-42-23.png',
             description: '',
             location: {
-                center: [28.973 , 40.876],
+                center: [28.976, 40.876],
                 zoom: 16,
                 pitch: 0,
                 bearing: 0
@@ -187,6 +206,5 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        
     ]
 };
